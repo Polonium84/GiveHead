@@ -1,0 +1,13 @@
+name: GiveHead
+version: 1.0.0
+description: To give you a costumized head.
+author: Polonium
+
+main: com.po.givehead.GiveHead
+api-version: 1.16
+
+commands:
+  givehead:
+    description: 给予一个自定义头颅
+    aliases: gh
+    usage: /givehead <头颅数据值> [数量](不填为1)
